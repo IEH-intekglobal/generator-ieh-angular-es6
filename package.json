@@ -1,0 +1,24 @@
+{
+  "name": "generator-ieh-angular-es6",
+  "version": "0.1.0",
+  "description": "custom yo generator",
+  "files": [
+    "generators/app",
+    "generators/route"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IEH.tekmexico",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "lodash": "^4.0.0",
+    "underscore.string": "^3.2.3",
+    "yeoman-generator": "^0.22.4"
+  }
+}
